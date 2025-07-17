@@ -1,26 +1,42 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  /* Tailwind CSS customizations */
+  --color-primary: #F7CF05; /* Example primary color */
+  
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* Global layer base styles */
+@layer base {
+  h1 {
+    @apply text-5xl leading-tight;
+    @apply md:text-7xl md:leading-tight;
   }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  h2 {
+    @apply text-4xl leading-tight;
+    @apply md:text-6xl md:leading-tight;
+  }
+  h3 {
+    @apply text-3xl leading-snug;
+  }
+  h4 {
+    @apply text-2xl leading-snug;
+  }
+  h5 {
+    @apply text-xl leading-normal;
+  }
+  p {
+    @apply text-lg leading-relaxed;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-black;
+  }
+  body {
+    @apply font-sans;
+  }
 }
