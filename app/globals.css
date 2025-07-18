@@ -6,6 +6,12 @@
   
 }
 
+@theme {
+  /* Font imports */
+  --font-geist: var(--geist-font-family);
+  --font-family-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}
+
 /* Global layer base styles */
 @layer base {
   h1 {
