@@ -71,6 +71,7 @@ import StarImg from "@/public/star.png";
 import Link from "next/link";
 import { FaArrowDown } from "react-icons/fa";
 import HeroCarousel from "./HeroCarousel";
+import Badge from "@/components/Badge";
 
 const Hero = () => {
   return (
@@ -80,22 +81,7 @@ const Hero = () => {
         <div></div>
 
         <div>
-          <div className="flex gap-2 mb-2">
-            <div className="flex items-center gap-1">
-              {[...Array(5)].map((_, i) => (
-                <Image
-                  key={`stars${i}`}
-                  src={StarImg}
-                  alt="Star"
-                  width={16}
-                  height={16}
-                />
-              ))}
-            </div>
-            <p className="text-sm text-white font-bold">
-              25+ successful projects
-            </p>
-          </div>
+          <Badge />
 
           <h1 className="mb-2">
             WE BUILD WITH <br />

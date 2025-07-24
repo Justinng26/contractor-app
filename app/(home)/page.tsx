@@ -4,6 +4,7 @@ import CoreValues from "./modules/CoreValues";
 import Hero from "./modules/Hero";
 import Services from "@/modules/Services";
 import Projects from "@/modules/Projects";
+import ContactUs from "@/modules/ContactUs";
 
 export default function Home() {
   return (
@@ -15,6 +16,8 @@ export default function Home() {
         <Services />
         <Projects />
       </SectionSplit>
+
+      <ContactUs />
     </>
   );
 }
