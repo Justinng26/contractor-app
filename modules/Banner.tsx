@@ -2,6 +2,7 @@ import Overlay from "@/components/Overlay";
 import Container from "@/components/Container";
 import Image from "next/image";
 import React from "react";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 const Banner = () => {
   return (
@@ -16,7 +17,9 @@ const Banner = () => {
       <Overlay />
 
       <div className="absolute bottom-4 left-0 w-full h-auto">
-        <Container>a</Container>
+        <Container>
+          <Breadcrumbs />
+        </Container>
       </div>
     </div>
   );
