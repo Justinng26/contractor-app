@@ -6,7 +6,6 @@ import OurEmployees from "./modules/OurEmployees";
 // import OurManagement from "./modules/OurManagement";
 import OurVision from "./modules/OurVision";
 import Certificates from "./modules/Certificates";
-import { text } from "stream/consumers";
 import Link from "next/link";
 import CoreValues from "../(home)/modules/CoreValues";
 
