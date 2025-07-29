@@ -152,17 +152,17 @@ export default Services;
 const data = [
   {
     title: "Kitchens & Bathrooms",
-    href: "/services/general-contracting",
+    href: "/services/kitchens-and-bathrooms",
     description: "Description of service 1",
   },
   {
     title: "Decorating & Landscaping",
-    href: "/services/renovation-and-restoration",
+    href: "/services/decorating-and-landscaping",
     description: "Description of service 2",
   },
   {
     title: "Electrical & Plumbing",
-    href: "/services/custom-builds",
+    href: "/services/electrical-and-plumbing",
     description: "Description of service 3",
   },
 ];

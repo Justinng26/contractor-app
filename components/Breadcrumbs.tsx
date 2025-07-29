@@ -7,6 +7,10 @@ import React from "react";
 const Breadcrumbs = () => {
   const pathname = usePathname();
   const paths = pathname.split("/").filter((path) => path !== "");
+
+  paths.forEach((path, index) => {
+    paths[index] = path.replace(/-/g, " ");
+  });
   return (
     <nav>
       <ol className="flex items-center space-x-2 text-sm">
