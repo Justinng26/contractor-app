@@ -11,6 +11,10 @@ const Breadcrumbs = () => {
   paths.forEach((path, index) => {
     paths[index] = path.replace(/-/g, " ");
   });
+
+  // if (Number.isInteger(Number(paths[paths.length - 1]))) {
+  //   paths.pop();
+  // }
   return (
     <nav>
       <ol className="flex items-center space-x-2 text-sm">

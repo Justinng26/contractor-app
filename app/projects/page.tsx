@@ -230,10 +230,12 @@ export default async function ProjectsPage({
 }
 
 // Fix: Make IDs unique
-const projects = [
+export const projects = [
   {
     id: 1,
     title: "Project 1",
+    description:
+      "Modern residential development with sustainable design features and energy-efficient systems.",
     year: 2021,
     location: "Stevenage",
     images: ["/hero.jpg"],
@@ -241,6 +243,8 @@ const projects = [
   {
     id: 2,
     title: "Project 2",
+    description:
+      "Commercial office space renovation featuring contemporary interiors and smart building technology.",
     year: 2022,
     location: "Hertford",
     images: ["/hero2.jpg"],
@@ -248,6 +252,8 @@ const projects = [
   {
     id: 3,
     title: "Project 3",
+    description:
+      "Mixed-use development combining retail spaces with luxury apartments in the town center.",
     year: 2023,
     location: "Hertfordshire",
     images: ["/hero3.jpg"],
@@ -255,6 +261,8 @@ const projects = [
   {
     id: 4,
     title: "Project 4",
+    description:
+      "Affordable housing project designed to meet local community needs with modern amenities.",
     year: 2024,
     location: "Stevenage",
     images: ["/hero.jpg"],
@@ -262,6 +270,8 @@ const projects = [
   {
     id: 5,
     title: "Project 5",
+    description:
+      "High-end commercial tower with cutting-edge architecture and premium office facilities.",
     year: 2025,
     location: "London",
     images: ["/hero2.jpg"],
@@ -269,6 +279,8 @@ const projects = [
   {
     id: 6,
     title: "Project 6",
+    description:
+      "Heritage building restoration preserving historic character while adding modern functionality.",
     year: 2021,
     location: "Stevenage",
     images: ["/hero.jpg"],
@@ -276,6 +288,8 @@ const projects = [
   {
     id: 7,
     title: "Project 7",
+    description:
+      "Eco-friendly warehouse and distribution center with solar panels and rainwater harvesting.",
     year: 2022,
     location: "Hertford",
     images: ["/hero2.jpg"],
@@ -283,6 +297,8 @@ const projects = [
   {
     id: 8,
     title: "Project 8",
+    description:
+      "Educational facility featuring flexible learning spaces and state-of-the-art technology integration.",
     year: 2023,
     location: "Hertfordshire",
     images: ["/hero3.jpg"],
@@ -290,6 +306,8 @@ const projects = [
   {
     id: 9,
     title: "Project 9",
+    description:
+      "Healthcare facility designed for optimal patient care with advanced medical equipment support.",
     year: 2024,
     location: "Stevenage",
     images: ["/hero.jpg"],
@@ -297,6 +315,8 @@ const projects = [
   {
     id: 10,
     title: "Project 10",
+    description:
+      "Luxury residential complex with premium amenities, concierge services, and panoramic city views.",
     year: 2025,
     location: "London",
     images: ["/hero2.jpg"],
