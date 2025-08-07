@@ -87,6 +87,7 @@
 
 import Container from "@/components/Container";
 import SectionName from "@/components/SectionName";
+import { Route } from "@/types/route";
 import Link from "next/link";
 import { title } from "process";
 import React from "react";
@@ -152,17 +153,17 @@ export default Services;
 const data = [
   {
     title: "Kitchens & Bathrooms",
-    href: "/services/kitchens-and-bathrooms",
+    href: Route.KITCHENS_AND_BATHROOMS,
     description: "Description of service 1",
   },
   {
     title: "Decorating & Landscaping",
-    href: "/services/decorating-and-landscaping",
+    href: Route.DECORATING_AND_LANDSCAPING,
     description: "Description of service 2",
   },
   {
     title: "Electrical & Plumbing",
-    href: "/services/electrical-and-plumbing",
+    href: Route.ELECTRICAL_AND_PLUMBING,
     description: "Description of service 3",
   },
 ];

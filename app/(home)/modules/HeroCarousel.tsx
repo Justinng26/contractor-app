@@ -8,6 +8,8 @@ const images = ["/parapija.jpg", "/hero2.jpg", "/hero3.jpg"];
 
 const HeroCarousel = () => {
   const [currentImageIndex, setCurrentIndex] = React.useState(0);
+  const [offset, setOffset] = React.useState(0);
+  const containerRef = React.useRef<HTMLDivElement | null>(null);
 
   const handleImageChange = (newIndex: number) => {
     if (newIndex !== currentImageIndex) {
@@ -23,9 +25,26 @@ const HeroCarousel = () => {
     return () => clearInterval(intervalId); // Cleanup on unmount
   }, [currentImageIndex]);
 
+  useEffect(() => {
+    if (containerRef.current) {
+      const speed = 0.3;
+      containerRef.current.style.transform = `translateY(${offset * speed}px)`;
+    }
+  }, [offset]);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setOffset(window.scrollY);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
     <>
-      <div className="absolute inset-0 overflow-hidden">
+      <div ref={containerRef} className="absolute inset-0 overflow-hidden">
         {images.map((img, index) => (
           <div
             key={img}
@@ -35,6 +54,9 @@ const HeroCarousel = () => {
                              ? "opacity-100 scale-105"
                              : "opacity-0 scale-100"
                          }`}
+            style={{
+              transform: `translateY(${(index - currentImageIndex) * 5}%)`,
+            }}
           >
             <Image
               src={img}

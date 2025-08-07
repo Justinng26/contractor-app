@@ -3,6 +3,7 @@ import Container from "@/components/Container";
 import SectionSplit from "@/components/SectionSplit";
 import Banner from "@/modules/Banner";
 import Projects from "@/modules/Projects";
+import { Route } from "@/types/route";
 import Image from "next/image";
 import Link from "next/link";
 import React, { ReactNode } from "react";
@@ -43,7 +44,7 @@ const ServicePageContent = ({
             <div className="p-12">
               <p className="mb-4">{description}</p>
 
-              <Link href="/projects">
+              <Link href={Route.PROJECTS}>
                 <Button>View Projects</Button>
               </Link>
             </div>

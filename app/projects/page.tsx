@@ -157,6 +157,7 @@ import Project from "./components/Project";
 import Filtering from "./components/Filtering";
 import { SearchParams } from "@/types/route";
 import PaginationControl from "./components/PaginationControl";
+import { Route } from "@/types/route";
 
 export default async function ProjectsPage({
   searchParams,
@@ -206,7 +207,7 @@ export default async function ProjectsPage({
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-12">
             {paginatedProjects.map((project) => (
               <Link
-                href={`/projects/${project.id}`}
+                href={`${Route.PROJECTS}/${project.id}`}
                 key={`${project.id}-${project.title}`}
               >
                 <Project {...project} />
