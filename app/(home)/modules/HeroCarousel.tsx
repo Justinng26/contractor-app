@@ -70,7 +70,7 @@ const HeroCarousel = () => {
       </div>
       <Overlay />
 
-      <div className="absolute right-4 bottom-4 z-50">
+      <div className="absolute right-4 bottom-4 z-40">
         <div className="flex gap-2">
           {images.map((img, i) => (
             <button

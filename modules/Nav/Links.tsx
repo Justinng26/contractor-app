@@ -3,12 +3,17 @@ import Link from "next/link";
 import React from "react";
 import { GrInfo, GrPhone, GrProjects, GrServices } from "react-icons/gr";
 
-const Links = () => {
+interface LinksProps {
+  handleLinkClick?: () => void;
+}
+
+const Links = ({ handleLinkClick }: LinksProps) => {
   return (
     <ul className="space-y-4 md:space-y-0 md:space-x-4 flex-col md:flex-row md:flex">
       {links.map((link) => (
         <li key={link.text}>
           <Link
+            onClick={handleLinkClick}
             href={link.href}
             className="flex items-center gap-2 hover:text-primary text-xl font-medium"
           >
