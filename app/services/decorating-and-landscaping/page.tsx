@@ -6,7 +6,7 @@ export default function DecoratingAndLandscaping() {
 }
 
 const data = {
-  title: "Decorating And Landscaping",
+  title: "Landscaping & Decorating",
   subtitle: "subtitle 2",
   image: "/hero3.jpg",
   description: (
