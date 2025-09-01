@@ -8,7 +8,7 @@ export default function ElectricalAndPlumbing() {
 const data = {
   title: "Electrical and Plumbing",
   subtitle: "subtitle 3",
-  image: "/hero2.jpg",
+  image: "/hero9.jpeg",
   description: (
     <>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis cumque

@@ -37,7 +37,7 @@ const ServicePageContent = ({
                 src={image}
                 alt="service image"
                 fill
-                className="object-cover"
+                className="object-fill"
               />
             </div>
 

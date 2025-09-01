@@ -8,7 +8,7 @@ export default function KitchensAndBathrooms() {
 const data = {
   title: "Kitchens And Bathrooms",
   subtitle: "Subtitle 1",
-  image: "/hero.jpg",
+  image: "/hero12.jpeg",
   description: (
     <>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis cumque

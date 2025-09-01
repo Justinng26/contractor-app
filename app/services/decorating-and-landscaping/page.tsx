@@ -8,7 +8,7 @@ export default function DecoratingAndLandscaping() {
 const data = {
   title: "Landscaping & Decorating",
   subtitle: "subtitle 2",
-  image: "/hero3.jpg",
+  image: "/hero7.jpeg",
   description: (
     <>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis cumque

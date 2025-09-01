@@ -6,12 +6,12 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 
 const Banner = () => {
   return (
-    <div className="relative w-full h-[260px] md:h-[300px]">
+    <div className="relative w-full h-[280px] md:h-[300px]">
       <Image
-        src="/hero2.jpg"
+        src="/hero10.jpeg"
         alt="Banner Image"
         fill
-        className="object-cover "
+        className="object-cover object-center"
       />
 
       <Overlay />

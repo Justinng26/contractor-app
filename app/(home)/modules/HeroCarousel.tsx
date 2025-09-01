@@ -4,7 +4,7 @@ import Overlay from "@/components/Overlay";
 import Image from "next/image";
 import React, { useEffect } from "react";
 
-const images = ["/parapija.jpg", "/hero2.jpg", "/hero3.jpg"];
+const images = ["/hero8.jpeg", "/hero4.jpeg", "/hero6.jpeg"];
 
 const HeroCarousel = () => {
   const [currentImageIndex, setCurrentIndex] = React.useState(0);
@@ -76,7 +76,7 @@ const HeroCarousel = () => {
             <button
               key={img}
               onClick={() => handleImageChange(i)}
-              className={`w-12 h-2 rounded-full transition-all duration-300 shadow ${
+              className={`w-12 h-2 rounded-full transition-all duration-300 shadow  ${
                 currentImageIndex === i
                   ? "bg-primary"
                   : "bg-white hover:bg-gray-200"

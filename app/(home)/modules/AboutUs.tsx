@@ -22,7 +22,7 @@ const AboutUs = () => {
         </div>
 
         <div className="relative h-[200px] md:h-[450px]">
-          <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-100 z-10" />
+          <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-90 z-10" />
 
           {/* <video
             src="/home_video.mp4"
@@ -32,10 +32,10 @@ const AboutUs = () => {
             className="object-cover h-[200px] w-full md:h-[450px]"
           /> */}
           <Image
-            src="/hero3.jpg"
+            src="/hero5.jpeg"
             alt="About Us Image"
             fill
-            className="object-cover"
+            className="object-cover object-top"
           />
         </div>
 

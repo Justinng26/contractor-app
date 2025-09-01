@@ -11,20 +11,22 @@ const CoreValues = () => {
           return (
             <div
               key={item.title}
-              className={`flex flex-col items-center p-6 ${
-                isSecondItem && "bg-primary text-black"
+              className={`flex flex-col items-center p-6 text-white ${
+                isSecondItem ? "bg-primary" : ""
               }`}
             >
               <div className="flex flex-col items-center gap-4 text-center">
-                <div
-                  className={`w-20 h-20 border-2 ${
-                    isSecondItem ? "border-black" : "border-white"
-                  } rounded-full flex items-center justify-center`}
-                >
-                  <Image src={item.img} alt="icon" width={34} height={34} />
+                <div className="w-20 h-20 border-2 border-white rounded-full flex items-center justify-center">
+                  <Image
+                    src={item.img}
+                    alt="icon"
+                    width={34}
+                    height={34}
+                    className={isSecondItem ? "invert" : ""}
+                  />
                 </div>
-                <h3>{item.title}</h3>
-                <p className="max-w-sm">{item.description}</p>
+                <h3 className="text-white">{item.title}</h3>
+                <p className="max-w-sm text-white">{item.description}</p>
               </div>
             </div>
           );
@@ -42,7 +44,7 @@ const data = [
       "We strive for excellence in every project, ensuring the highest quality standards.",
   },
   {
-    img: "/innovation.png",
+    img: "/lamp.png",
     title: "Innovation",
     description:
       "We embrace innovation to deliver cutting-edge solutions that meet the evolving needs of our clients.",
