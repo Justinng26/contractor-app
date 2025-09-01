@@ -75,9 +75,11 @@ const EmblaCarousel: React.FC<CarouselProps> = (props) => {
                       fill
                       className="object-cover"
                     />
-                    <h3 className="absolute left-8 bottom-4 inline-block text-white bg-gradient-to-r from-black to-transparent p-2">
-                      {slide.title}
-                    </h3>
+                    <div className="absolute inset-0 bg-black/20 hover:bg-black/40 transition-colors duration-300 flex items-end">
+                      <h3 className="text-white text-xl font-bold m-6 p-3 bg-black/60 rounded-lg backdrop-blur-sm">
+                        {slide.title}
+                      </h3>
+                    </div>
                   </Link>
                 )}
               </div>

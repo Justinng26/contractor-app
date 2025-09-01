@@ -7,19 +7,19 @@ import React from "react";
 
 const data = [
   {
-    image: "/hero.jpg",
+    image: "/hero4.jpeg",
     title: "Project 1",
-    link: "/project1",
+    link: "/projects/1",
   },
   {
     image: "/hero2.jpg",
     title: "Project 2 ",
-    link: "/project2",
+    link: "/projects/2",
   },
   {
     image: "/hero3.jpg",
     title: "Project 3",
-    link: "/project3",
+    link: "/projects/3",
   },
 ];
 
