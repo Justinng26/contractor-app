@@ -65,7 +65,7 @@ const EmblaCarousel: React.FC<CarouselProps> = (props) => {
                     src={slide}
                     alt="Carousel image"
                     fill
-                    className="object-cover"
+                    className="object-fill"
                   />
                 ) : (
                   <Link href={slide.link}>
@@ -73,7 +73,7 @@ const EmblaCarousel: React.FC<CarouselProps> = (props) => {
                       src={slide.image}
                       alt="Carousel image"
                       fill
-                      className="object-cover"
+                      className="object-fill"
                     />
                     <div className="absolute inset-0 bg-black/20 hover:bg-black/40 transition-colors duration-300 flex items-end">
                       <h3 className="text-white text-xl font-bold m-6 p-3 bg-black/60 rounded-lg backdrop-blur-sm">

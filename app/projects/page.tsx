@@ -88,7 +88,7 @@ export const projects = [
       "Modern residential development with sustainable design features and energy-efficient systems.",
     year: 2021,
     location: "Stevenage",
-    images: ["/hero.jpg", "/hero2.jpg", "/hero3.jpg"],
+    images: ["/hero4.jpeg", "/hero10.jpeg", "/Project1a.jpeg"],
   },
   {
     id: 2,
@@ -97,7 +97,7 @@ export const projects = [
       "Commercial office space renovation featuring contemporary interiors and smart building technology.",
     year: 2022,
     location: "Hertford",
-    images: ["/hero2.jpg", "/hero.jpg", "/hero3.jpg", "/parapija.jpg"],
+    images: ["/hero8.jpeg", "/hero.jpg", "/hero3.jpg", "/parapija.jpg"],
   },
   {
     id: 3,
@@ -115,7 +115,7 @@ export const projects = [
       "Affordable housing project designed to meet local community needs with modern amenities.",
     year: 2024,
     location: "Stevenage",
-    images: ["/hero.jpg", "/parapija.jpg", "/hero2.jpg", "/hero3.jpg"],
+    images: ["/hero12.jpeg", "/Project4a.jpeg", "/Project4b.jpeg"],
   },
   {
     id: 5,

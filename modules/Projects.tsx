@@ -12,12 +12,12 @@ const data = [
     link: "/projects/1",
   },
   {
-    image: "/hero2.jpg",
+    image: "/hero8.jpeg",
     title: "Project 2 ",
     link: "/projects/2",
   },
   {
-    image: "/hero3.jpg",
+    image: "/hero5.jpeg",
     title: "Project 3",
     link: "/projects/3",
   },
