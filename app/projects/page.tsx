@@ -97,7 +97,7 @@ export const projects = [
       "Commercial office space renovation featuring contemporary interiors and smart building technology.",
     year: 2022,
     location: "Hertford",
-    images: ["/hero8.jpeg", "/hero.jpg", "/hero3.jpg", "/parapija.jpg"],
+    images: ["/hero8.jpeg", "/Project2b.jpeg"],
   },
   {
     id: 3,
@@ -106,7 +106,12 @@ export const projects = [
       "Mixed-use development combining retail spaces with luxury apartments in the town center.",
     year: 2023,
     location: "Hertfordshire",
-    images: ["/hero3.jpg", "/hero.jpg", "/hero2.jpg"],
+    images: [
+      "/hero6.jpeg",
+      "/Project3a.jpeg",
+      "/Project3b.jpeg",
+      "/Project3c.jpeg",
+    ],
   },
   {
     id: 4,
@@ -124,7 +129,7 @@ export const projects = [
       "High-end commercial tower with cutting-edge architecture and premium office facilities.",
     year: 2025,
     location: "London",
-    images: ["/hero2.jpg", "/hero3.jpg", "/parapija.jpg"],
+    images: ["/Project5a.jpeg", "/Project5b.jpeg", "/Project5c.jpeg"],
   },
   {
     id: 6,

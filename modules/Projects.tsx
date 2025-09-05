@@ -17,7 +17,7 @@ const data = [
     link: "/projects/2",
   },
   {
-    image: "/hero5.jpeg",
+    image: "/hero6.jpeg",
     title: "Project 3",
     link: "/projects/3",
   },
